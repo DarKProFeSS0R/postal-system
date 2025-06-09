@@ -23,6 +23,8 @@
    - Створіть файл `.env` у кореневій папці сервера з такими змінними:
      ```
      GOOGLE_API_KEY=ваш_валідний_ключ
+     OPENWEATHERMAP_API_TOKEN=ваш_ключ_для_погоди
+     JWT_SECRET=ваш_jwt_токен
      FONTAWESOME_KEY=ваш_ключ_fontawesome (опціонально)
      ```
    - Переконайтеся, що сервер запущений на `http://localhost:5000`.
